@@ -1,5 +1,5 @@
-import { GifsResult, GiphyFetch, SearchOptions } from '@f-giphy/js-fetch-api'
-import { IChannel } from '@f-giphy/js-types'
+import { GifsResult, GiphyFetch, SearchOptions } from '@f-giphy-pfft/js-fetch-api'
+import { IChannel } from '@f-giphy-pfft/js-types'
 import { ThemeProvider } from 'emotion-theming'
 import React, { createContext, ReactNode, useEffect, useState } from 'react'
 import PingbackContextManager from '../pingback-context-manager'

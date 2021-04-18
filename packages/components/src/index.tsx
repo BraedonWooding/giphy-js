@@ -3,7 +3,7 @@ import { h, render } from 'preact'
 import Carousel from './components/carousel'
 import Grid from './components/grid'
 import Gif, { Props as GifProps } from './components/gif'
-import { appendGiphySDKRequestHeader } from '@f-giphy/js-util'
+import { appendGiphySDKRequestHeader } from '@f-giphy-pfft/js-util'
 
 export { default as Carousel } from './components/carousel'
 export { default as Gif } from './components/gif'

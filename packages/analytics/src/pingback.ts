@@ -1,4 +1,4 @@
-import { getPingbackId } from '@f-giphy/js-util'
+import { getPingbackId } from '@f-giphy-pfft/js-util'
 import gl from './global'
 
 gl.giphyRandomId = getPingbackId()

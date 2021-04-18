@@ -1,5 +1,5 @@
-import { IGif } from '@f-giphy/js-types'
-import { getGifHeight } from '@f-giphy/js-util'
+import { IGif } from '@f-giphy-pfft/js-types'
+import { getGifHeight } from '@f-giphy-pfft/js-util'
 import React, { useCallback, useEffect, useRef } from 'react'
 import getBestMedia from './rendition-selection'
 import { getErrorMessage, shouldFireQuartile } from './util'

@@ -1,5 +1,5 @@
-import { IGif, IUser } from '@f-giphy/js-types'
-import { getPingbackId } from '@f-giphy/js-util'
+import { IGif, IUser } from '@f-giphy-pfft/js-types'
+import { getPingbackId } from '@f-giphy-pfft/js-util'
 import fetch from 'jest-fetch-mock'
 import pingback from '../pingback'
 

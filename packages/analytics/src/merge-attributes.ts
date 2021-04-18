@@ -1,4 +1,4 @@
-import { pick } from '@f-giphy/js-util'
+import { pick } from '@f-giphy-pfft/js-util'
 import { PingbackAttributes } from './types'
 
 const mergeAttribute = (attributes: PingbackAttributes, newAttributes: PingbackAttributes, key: string) => {

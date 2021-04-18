@@ -1,5 +1,5 @@
-import { IGif, IImage, IRendition } from '@f-giphy/js-types'
-import { bestfit } from '@f-giphy/js-util'
+import { IGif, IImage, IRendition } from '@f-giphy-pfft/js-types'
+import { bestfit } from '@f-giphy-pfft/js-util'
 
 const getBestMedia = (video: IGif['video'], width: number, height: number) => {
     let assets = video?.assets

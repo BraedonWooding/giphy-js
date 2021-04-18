@@ -1,4 +1,4 @@
-import { IGif } from '@f-giphy/js-types'
+import { IGif } from '@f-giphy-pfft/js-types'
 import 'jest-fetch-mock'
 import GiphyFetchAPI from '../api'
 import { DEFAULT_ERROR, ERROR_PREFIX } from '../request'

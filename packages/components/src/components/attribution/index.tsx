@@ -1,4 +1,4 @@
-import { IGif, IProfileUser } from '@f-giphy/js-types'
+import { IGif, IProfileUser } from '@f-giphy-pfft/js-types'
 import { css, cx } from 'emotion'
 import { h } from 'preact'
 import Avatar from './avatar'

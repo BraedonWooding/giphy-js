@@ -12,7 +12,7 @@
         "preact": "next",
         "typescript": "^4.0.5"
     },
-    "name": "@f-giphy/js-brand",
+    "name": "@f-giphy-pfft/js-brand",
     "version": "2.0.3",
     "main": "./dist/index.js",
     "description": "colors, fonts, and other shared css",

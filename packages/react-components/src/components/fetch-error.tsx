@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { fontFamily, giphyBlue, giphyLightGrey } from '@f-giphy/js-brand'
+import { fontFamily, giphyBlue, giphyLightGrey } from '@f-giphy-pfft/js-brand'
 import React, { SyntheticEvent } from 'react'
 
 const Message = styled.div`

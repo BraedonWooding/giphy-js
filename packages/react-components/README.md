@@ -1,4 +1,4 @@
-# @f-giphy/react-components
+# @f-giphy-pfft/react-components
 
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/d6f633d1/giphy-js)
 
@@ -25,7 +25,7 @@ To try out it out before integrating, click on the code sandbox below. You may h
 
 ## Try it out:
 
-[![Edit @f-giphy/react-components](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/giphyreact-components-hbmcf?from-embed)
+[![Edit @f-giphy-pfft/react-components](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/giphyreact-components-hbmcf?from-embed)
 
 ## Grid
 
@@ -33,7 +33,7 @@ To try out it out before integrating, click on the code sandbox below. You may h
 | _prop_                                  | _type_                                   | _default_ | _description_                                                                                           |
 | --------------------------------------- | ---------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------- |
 | width                                   | `number`                                 | undefined | The width of the grid                                                                                   |
-| fetchGifs                               | `(offset:number) => Promise<GifsResult>` | undefined | A function that returns a Promise<GifsResult>. Use `@f-giphy/js-fetch-api`                                |
+| fetchGifs                               | `(offset:number) => Promise<GifsResult>` | undefined | A function that returns a Promise<GifsResult>. Use `@f-giphy-pfft/js-fetch-api`                                |
 | columns                                 | `number`                                 | 3         | The number of columns in the grid                                                                       |
 | gutter                                  | `number`                                 | 6         | The space between columns and rows                                                                      |
 | borderRadius                            | `number`                                 | 4         | a border radius applied to Gif Components making the corners rounded                                    |
@@ -48,9 +48,9 @@ To try out it out before integrating, click on the code sandbox below. You may h
 See [codesandbox](https://codesandbox.io/s/giphyreact-components-hbmcf?from-embed) for runnable code
 
 ```tsx
-import { Grid } from '@f-giphy/react-components'
-import { GiphyFetch } from '@f-giphy/js-fetch-api'
-// use @f-giphy/js-fetch-api to fetch gifs
+import { Grid } from '@f-giphy-pfft/react-components'
+import { GiphyFetch } from '@f-giphy-pfft/js-fetch-api'
+// use @f-giphy-pfft/js-fetch-api to fetch gifs
 // apply for a new Web SDK key. Use a separate key for every platform (Android, iOS, Web)
 const gf = new GiphyFetch('your Web SDK key')
 // fetch 10 gifs at a time as the user scrolls (offset is handled by the grid)
@@ -71,7 +71,7 @@ See this [codesanbox](https://codesandbox.io/s/giphy-web-sdk-ssr-with-nextjs-irv
 | _prop_                                  | _type_                                   | _default_ | _description_                                                                                           |
 | --------------------------------------- | ---------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------- |
 | gifHeight                               | `number`                                 | undefined | The height of the gifs and the carousel                                                                 |
-| fetchGifs                               | `(offset:number) => Promise<GifsResult>` | undefined | A function that returns a Promise<GifsResult>. Use `@f-giphy/js-fetch-api`                                |
+| fetchGifs                               | `(offset:number) => Promise<GifsResult>` | undefined | A function that returns a Promise<GifsResult>. Use `@f-giphy-pfft/js-fetch-api`                                |
 | gutter                                  | `number`                                 | 6         | The space between columns and rows                                                                      |
 | borderRadius                            | `number`                                 | 4         | a border radius applied to Gif Components making the corners rounded                                    |
 | noResultsMessage                        | `string or JSX.Element`                  | undefined | Customise the "No results" message                                                                      |
@@ -85,10 +85,10 @@ See [codesandbox](https://codesandbox.io/s/giphyreact-components-hbmcf?from-embe
 Or see our [storybook](https://giphy.github.io/giphy-js) UI component explorer.
 
 ```tsx
-import { Carousel } from '@f-giphy/react-components'
-import { GiphyFetch } from '@f-giphy/js-fetch-api'
+import { Carousel } from '@f-giphy-pfft/react-components'
+import { GiphyFetch } from '@f-giphy-pfft/js-fetch-api'
 
-// use @f-giphy/js-fetch-api to fetch gifs
+// use @f-giphy-pfft/js-fetch-api to fetch gifs
 const gf = new GiphyFetch('your api key')
 // fetch 10 gifs at a time as the user scrolls (offset is handled by the grid)
 const fetchGifs = (offset: number) => gf.trending({ offset, limit: 10 })
@@ -118,10 +118,10 @@ _Gif props_
 See [codesandbox](https://codesandbox.io/s/giphyreact-components-hbmcf?from-embed) for runnable code
 
 ```tsx
-import { Gif } from '@f-giphy/react-components'
-import { GiphyFetch } from '@f-giphy/js-fetch-api'
+import { Gif } from '@f-giphy-pfft/react-components'
+import { GiphyFetch } from '@f-giphy-pfft/js-fetch-api'
 
-// use @f-giphy/js-fetch-api to fetch gifs
+// use @f-giphy-pfft/js-fetch-api to fetch gifs
 // apply for a new Web SDK key. Use a separate key for every platform (Android, iOS, Web)
 const gf = new GiphyFetch('your Web SDK key')
 // fetch 10 gifs at a time as the user scrolls (offset is handled by the grid)
@@ -143,7 +143,7 @@ import {
     SearchContext, // the context that wraps and connects our components
     SearchContextManager, // the context manager, includes the Context.Provider
     SuggestionBar, // an optional UI component that displays trending searches and channel / username results
-} from '@f-giphy/react-components'
+} from '@f-giphy-pfft/react-components'
 
 // the search experience consists of the manager and its child components that use SearchContext
 const SearchExperience = () => (

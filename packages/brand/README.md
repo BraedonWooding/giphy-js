@@ -1,3 +1,3 @@
-# @f-giphy/js-brand
+# @f-giphy-pfft/js-brand
 
 Colors, fonts - WIP

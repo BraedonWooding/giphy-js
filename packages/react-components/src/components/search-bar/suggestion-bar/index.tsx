@@ -1,4 +1,4 @@
-import { IChannel } from '@f-giphy/js-types'
+import { IChannel } from '@f-giphy-pfft/js-types'
 import React, { useContext, useEffect, useState } from 'react'
 import { SearchContext } from '../context'
 import styled, { getSize } from '../theme'

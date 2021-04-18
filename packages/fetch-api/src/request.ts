@@ -1,6 +1,6 @@
 import FetchError from './fetch-error'
 import { ErrorResult, Result } from './result-types'
-export const ERROR_PREFIX = `@f-giphy/js-fetch-api: `
+export const ERROR_PREFIX = `@f-giphy-pfft/js-fetch-api: `
 export const DEFAULT_ERROR = 'Error fetching'
 
 /* istanbul ignore next */
