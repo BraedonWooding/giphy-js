@@ -13,7 +13,7 @@
         "typescript": "^4.0.5"
     },
     "name": "@f-giphy-pfft/js-components",
-    "version": "4.4.2",
+    "version": "4.4.3",
     "description": "A lightweight set of components, focused on easy-of-use and performance.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -27,11 +27,11 @@
         "access": "public"
     },
     "dependencies": {
-        "@f-giphy-pfft/js-analytics": "^3.1.2",
-        "@f-giphy-pfft/js-brand": "^2.0.3",
-        "@f-giphy-pfft/js-fetch-api": "^3.0.2",
-        "@f-giphy-pfft/js-types": "^3.1.1",
-        "@f-giphy-pfft/js-util": "^2.3.1",
+        "@f-giphy-pfft/js-analytics": "^3.1.3",
+        "@f-giphy-pfft/js-brand": "^2.0.4",
+        "@f-giphy-pfft/js-fetch-api": "^3.0.3",
+        "@f-giphy-pfft/js-types": "^3.1.2",
+        "@f-giphy-pfft/js-util": "^2.3.2",
         "bricks.js": "^1.8.0",
         "emotion": "10.0.27",
         "intersection-observer": "^0.11.0",
