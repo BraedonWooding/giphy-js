@@ -1,4 +1,4 @@
-import { IRendition } from '@giphy/js-types'
+import { IRendition } from '@f-giphy/js-types'
 import { Logger } from './log'
 
 const closestArea = (width: number, height: number, renditions: IRendition[]) => {
@@ -22,7 +22,7 @@ const closestArea = (width: number, height: number, renditions: IRendition[]) =>
 
 let SCALE_UP_MAX_PIXELS = 50
 export const setRenditionScaleUpMaxPixels = (pixels: number) => {
-    Logger.debug(`@giphy/js-util set rendition selection scale up max pixels to ${pixels}`)
+    Logger.debug(`@f-giphy/js-util set rendition selection scale up max pixels to ${pixels}`)
     SCALE_UP_MAX_PIXELS = pixels
 }
 /**
@@ -47,7 +47,7 @@ function bestfit(
 ) {
     let [largestRendition] = renditions
     // filter out renditions that are smaller than the target width and height by scaleUpMaxPixels value
-    const testRenditions = renditions.filter(rendition => {
+    const testRenditions = renditions.filter((rendition) => {
         if (rendition.width * rendition.height > largestRendition.width * largestRendition.height) {
             largestRendition = rendition
         }

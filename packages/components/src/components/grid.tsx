@@ -1,5 +1,5 @@
-import { gifPaginator, GifsResult } from '@giphy/js-fetch-api'
-import { IGif, IUser } from '@giphy/js-types'
+import { gifPaginator, GifsResult } from '@f-giphy/js-fetch-api'
+import { IGif, IUser } from '@f-giphy/js-types'
 import Bricks from 'bricks.js'
 import { css, cx } from 'emotion'
 import { Component, h, JSX } from 'preact'

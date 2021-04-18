@@ -1,4 +1,4 @@
-import { getGiphySDKRequestHeaders, appendGiphySDKRequestHeader } from '@giphy/js-util'
+import { getGiphySDKRequestHeaders, appendGiphySDKRequestHeader } from '@f-giphy/js-util'
 
 export { default as GiphyFetch } from './api'
 export * from './option-types'

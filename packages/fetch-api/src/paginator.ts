@@ -1,4 +1,4 @@
-import { IGif } from '@giphy/js-types'
+import { IGif } from '@f-giphy/js-types'
 import { GifsResult } from './result-types'
 
 /**
@@ -7,7 +7,7 @@ import { GifsResult } from './result-types'
 export const gifPaginator = (fetchGifs: (offset: number) => Promise<GifsResult>, initialGifs: IGif[] = []) => {
     const gifs: IGif[] = [...initialGifs]
     // for deduping
-    const gifIds: (string | number)[] = initialGifs.map(g => g.id)
+    const gifIds: (string | number)[] = initialGifs.map((g) => g.id)
     let offset = initialGifs.length
     let isDoneFetching = false
     return async () => {
@@ -18,7 +18,7 @@ export const gifPaginator = (fetchGifs: (offset: number) => Promise<GifsResult>,
         const { pagination, data: newGifs } = result
         offset = pagination.count + pagination.offset
         isDoneFetching = offset === pagination.total_count
-        newGifs.forEach(gif => {
+        newGifs.forEach((gif) => {
             const { id } = gif
             if (!gifIds.includes(id)) {
                 // add gifs and gifIds

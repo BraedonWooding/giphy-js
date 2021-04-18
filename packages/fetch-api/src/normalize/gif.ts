@@ -1,4 +1,4 @@
-import { IGif } from '@giphy/js-types'
+import { IGif } from '@f-giphy/js-types'
 import { GifResult, GifsResult } from '../result-types'
 
 /**

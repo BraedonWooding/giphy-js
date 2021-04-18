@@ -1,5 +1,5 @@
 /* eslint-disable no-dupe-class-members */
-import { getPingbackId } from '@giphy/js-util'
+import { getPingbackId } from '@f-giphy/js-util'
 import qs from 'qs'
 import { normalizeGif, normalizeGifs } from './normalize/gif'
 import {

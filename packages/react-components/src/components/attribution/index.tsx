@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { IGif, IProfileUser } from '@giphy/js-types'
+import { IGif, IProfileUser } from '@f-giphy/js-types'
 import React from 'react'
 import Avatar_ from './avatar'
 import VerifiedBadge_ from './verified-badge'

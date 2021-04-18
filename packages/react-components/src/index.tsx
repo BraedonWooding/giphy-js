@@ -1,4 +1,4 @@
-import { appendGiphySDKRequestHeader } from '@giphy/js-util'
+import { appendGiphySDKRequestHeader } from '@f-giphy/js-util'
 import 'intersection-observer'
 
 export { default as Attribution } from './components/attribution'

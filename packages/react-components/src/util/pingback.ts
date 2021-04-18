@@ -1,6 +1,6 @@
-import { pingback, PingbackActionType, PingbackAttributes } from '@giphy/js-analytics'
-import { IGif } from '@giphy/js-types'
-import { getClientRect } from '@giphy/js-util'
+import { pingback, PingbackActionType, PingbackAttributes } from '@f-giphy/js-analytics'
+import { IGif } from '@f-giphy/js-types'
+import { getClientRect } from '@f-giphy/js-util'
 
 const firePingback = (actionType: PingbackActionType) => (
     gif: IGif,

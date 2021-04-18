@@ -7,7 +7,7 @@
         "test": "jest --config ./jestconfig.js",
         "test:watch": "jest --config ./jestconfig.js --watchAll"
     },
-    "name": "@giphy/js-util",
+    "name": "@f-giphy/js-util",
     "version": "2.3.0",
     "main": "dist/index.js",
     "description": "Shared giphy js utils",
@@ -21,7 +21,7 @@
         "access": "public"
     },
     "dependencies": {
-        "@giphy/js-types": "^3.1.0",
+        "@f-giphy/js-types": "^3.1.0",
         "dompurify": "^2.2.2",
         "uuid": "^8.3.0"
     },

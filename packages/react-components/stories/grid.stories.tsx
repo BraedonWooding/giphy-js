@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { GiphyFetch } from '@giphy/js-fetch-api'
+import { GiphyFetch } from '@f-giphy/js-fetch-api'
 import isPercy from '@percy-io/in-percy'
 import { boolean, number, withKnobs } from '@storybook/addon-knobs'
 import fetchMock from 'fetch-mock'

@@ -1,10 +1,10 @@
-# @giphy/js-components
+# @f-giphy/js-components
 
 A lightweight set of components, focused on ease-of-use and performance.
 
 ## Try it out:
 
-[![Edit @giphy/js-components](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/1wq52x1w44?fontsize=14)
+[![Edit @f-giphy/js-components](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/1wq52x1w44?fontsize=14)
 
 ## Grid
 
@@ -13,7 +13,7 @@ Use `renderGrid(props, target)` to render a grid to a target element
 ### Bare Bones Example
 
 ```typescript
-// use @giphy/js-fetch-api to fetch gifs
+// use @f-giphy/js-fetch-api to fetch gifs
 // apply for a new Web SDK key. Use a separate key for every platform (Android, iOS, Web)
 const gf = new GiphyFetch('your Web SDK key')
 // fetch 10 gifs at a time as the user scrolls (offset is handled by the grid)
@@ -29,7 +29,7 @@ _renderGrid options_
 | _prop_                                  | _type_                                   | _default_ | _description_                                                                                         |
 | --------------------------------------- | ---------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------- |
 | width                                   | `number`                                 | undefined | The width of the grid                                                                                 |
-| fetchGifs                               | `(offset:number) => Promise<GifsResult>` | undefined | A function that returns a Promise<GifsResult>. Use `@giphy/js-fetch-api`                              |
+| fetchGifs                               | `(offset:number) => Promise<GifsResult>` | undefined | A function that returns a Promise<GifsResult>. Use `@f-giphy/js-fetch-api`                              |
 | columns                                 | `number`                                 | 3         | The number of columns in the grid                                                                     |
 | gutter                                  | `number`                                 | 6         | The space between columns and rows                                                                    |
 | noResultsMessage                        | `string || element`                      | undefined | Customise the "No results" message                                                                    |
@@ -41,8 +41,8 @@ _renderGrid options_
 
 ```typescript
 import { throttle } from 'throttle-debounce'
-import { renderGrid } from '@giphy/js-components'
-import { GiphyFetch } from '@giphy/js-fetch-api'
+import { renderGrid } from '@f-giphy/js-components'
+import { GiphyFetch } from '@f-giphy/js-fetch-api'
 
 // create a GiphyFetch with your api key
 // apply for a new Web SDK key. Use a separate key for every platform (Android, iOS, Web)
@@ -58,7 +58,7 @@ const fetchGifs = (offset: number) => {
 // Creating a grid with window resizing and remove-ability
 const makeGrid = (targetEl: HTMLElement) => {
     const render = () => {
-        // here is the @giphy/js-components import
+        // here is the @f-giphy/js-components import
         return renderGrid(
             {
                 width: innerWidth,
@@ -94,7 +94,7 @@ _renderCarousel options_
 | property                                | type                                     | default   | description                                                                                           |
 | --------------------------------------- | ---------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------- |
 | gifHeight                               | `number`                                 | undefined | The height of the gifs and the carousel                                                               |
-| fetchGifs                               | `(offset:number) => Promise<GifsResult>` | undefined | A function that returns a Promise<GifsResult>. Use `@giphy/js-fetch-api`                              |
+| fetchGifs                               | `(offset:number) => Promise<GifsResult>` | undefined | A function that returns a Promise<GifsResult>. Use `@f-giphy/js-fetch-api`                              |
 | gutter                                  | `number`                                 | 6         | The space between columns and rows                                                                    |
 | noResultsMessage                        | `string || element`                      | undefined | Customise the "No results" message                                                                    |
 | [hideAttribution](#attribution-overlay) | `boolean`                                | false     | Hide the user attribution that appears over a                                                         |
@@ -102,8 +102,8 @@ _renderCarousel options_
 | [Gif Events](#gif-events)               | \*                                       | \*        | see below                                                                                             |
 
 ```typescript
-import { renderCarousel } from '@giphy/js-components'
-import { GiphyFetch } from '@giphy/js-fetch-api'
+import { renderCarousel } from '@f-giphy/js-components'
+import { GiphyFetch } from '@f-giphy/js-fetch-api'
 
 // create a GiphyFetch with your api key
 // apply for a new Web SDK key. Use a separate key for every platform (Android, iOS, Web)
@@ -137,8 +137,8 @@ _Gif props_
 | [Gif Events](#gif-events)               | \*        | \*                 | see below                                                                                             |
 
 ```typescript
-import { renderGif } from '@giphy/js-components'
-import { GiphyFetch } from '@giphy/js-fetch-api'
+import { renderGif } from '@f-giphy/js-components'
+import { GiphyFetch } from '@f-giphy/js-fetch-api'
 
 // create a GiphyFetch with your api key
 // apply for a new Web SDK key. Use a separate key for every platform (Android, iOS, Web)

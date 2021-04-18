@@ -1,6 +1,6 @@
 import { keyframes } from '@emotion/core'
 import styled from '@emotion/styled'
-import { giphyBlue, giphyGreen, giphyPurple, giphyRed, giphyYellow } from '@giphy/js-brand'
+import { giphyBlue, giphyGreen, giphyPurple, giphyRed, giphyYellow } from '@f-giphy/js-brand'
 import React from 'react'
 
 const bouncer = keyframes`

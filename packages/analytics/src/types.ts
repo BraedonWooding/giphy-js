@@ -1,4 +1,4 @@
-import { PingbackEventType } from '@giphy/js-types'
+import { PingbackEventType } from '@f-giphy/js-types'
 
 export type PingbackAttributes = { [key: string]: string }
 

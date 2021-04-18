@@ -1,4 +1,4 @@
-import { GiphyFetch } from '@giphy/js-fetch-api'
+import { GiphyFetch } from '@f-giphy/js-fetch-api'
 import { Component, h, render as preactRender } from 'preact' // eslint-disable-line no-unused-vars
 import { throttle } from 'throttle-debounce'
 import { Grid, renderGrid } from '../src'

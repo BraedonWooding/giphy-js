@@ -1,5 +1,5 @@
 import { css } from '@emotion/core'
-import { giphyBlack, giphyCharcoal, giphyIndigo, giphyLightGrey, giphyWhite } from '@giphy/js-brand'
+import { giphyBlack, giphyCharcoal, giphyIndigo, giphyLightGrey, giphyWhite } from '@f-giphy/js-brand'
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import useDebounce from 'react-use/lib/useDebounce'
 import { SearchContext } from './context'

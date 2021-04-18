@@ -1,4 +1,4 @@
-import { loader } from '@giphy/js-brand'
+import { loader } from '@f-giphy/js-brand'
 import { cx } from 'emotion'
 import { h } from 'preact'
 

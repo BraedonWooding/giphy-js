@@ -1,4 +1,4 @@
-# @giphy/js-util
+# @f-giphy/js-util
 
 More coming soon:
 

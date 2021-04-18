@@ -1,7 +1,7 @@
 import { Carousel, renderCarousel } from '../src'
-import { IGif } from '@giphy/js-types'
+import { IGif } from '@f-giphy/js-types'
 import { h, render as preactRender, Component } from 'preact'
-import { GiphyFetch } from '@giphy/js-fetch-api'
+import { GiphyFetch } from '@f-giphy/js-fetch-api'
 
 const gf = new GiphyFetch('sXpGFDGZs0Dv1mmNFvYaGUvYwKX0PWIh')
 const fetchGifs = (offset: number) => gf.trending({ offset, limit: 4 })
@@ -16,7 +16,7 @@ export namespace PreactCarousel {
             return <Carousel gifHeight={200} user={{}} gutter={6} fetchGifs={fetchGifs} />
         }
     }
-    export const render = mountNode => preactRender(<Test />, mountNode, mountNode.lastChild as Element)
+    export const render = (mountNode) => preactRender(<Test />, mountNode, mountNode.lastChild as Element)
 }
 
 export const vanillaJSCarousel = (mountNode: HTMLElement) => {

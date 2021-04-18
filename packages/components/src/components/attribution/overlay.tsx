@@ -1,4 +1,4 @@
-import { IGif } from '@giphy/js-types'
+import { IGif } from '@f-giphy/js-types'
 import { css } from 'emotion'
 import { h } from 'preact'
 import { useRef } from 'preact/hooks'

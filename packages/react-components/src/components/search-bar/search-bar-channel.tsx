@@ -1,5 +1,5 @@
 import { keyframes } from '@emotion/core'
-import { giphyCharcoal, giphyDarkCharcoal, giphyWhite, giphyWhiteSmoke } from '@giphy/js-brand'
+import { giphyCharcoal, giphyDarkCharcoal, giphyWhite, giphyWhiteSmoke } from '@f-giphy/js-brand'
 import React, { useContext } from 'react'
 import Avatar_ from '../attribution/avatar'
 import VerifiedBadge from '../attribution/verified-badge'

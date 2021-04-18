@@ -1,7 +1,7 @@
 import { renderGif, Gif } from '../src'
 import { h, render as preactRender, Component } from 'preact'
-import { GiphyFetch } from '@giphy/js-fetch-api'
-import { IGif } from '@giphy/js-types'
+import { GiphyFetch } from '@f-giphy/js-fetch-api'
+import { IGif } from '@f-giphy/js-types'
 import { css } from 'emotion'
 
 const gf = new GiphyFetch('sXpGFDGZs0Dv1mmNFvYaGUvYwKX0PWIh')

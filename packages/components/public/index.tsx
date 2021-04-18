@@ -1,4 +1,4 @@
-import { css } from '@giphy/js-brand'
+import { css } from '@f-giphy/js-brand'
 import { PreactCarousel, vanillaJSCarousel } from './carousel-demo'
 import { PreactGif, vanillaJSGif } from './gif-demo'
 import { PreactGrid, vanillaJSGrid } from './grid-demo'
