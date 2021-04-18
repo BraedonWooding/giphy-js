@@ -31,5 +31,5 @@
         "jest-fetch-mock": "^3.0.3",
         "typescript": "^4.0.5"
     },
-    "gitHead": "1ca8bb70a3c4032080b7150d311520025a0c6e39"
+    "gitHead": "b1cbc9283fc5579ce78305505aaa393b0ca0e923"
 }
