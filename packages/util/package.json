@@ -8,7 +8,7 @@
         "test:watch": "jest --config ./jestconfig.js --watchAll"
     },
     "name": "f-giphy-pfft-js-util",
-    "version": "2.3.2",
+    "version": "2.3.3",
     "main": "dist/index.js",
     "description": "Shared giphy js utils",
     "types": "dist/index.d.ts",
@@ -21,8 +21,8 @@
         "access": "public"
     },
     "dependencies": {
-        "f-giphy-pfft-js-types": "^3.1.2",
         "dompurify": "^2.2.2",
+        "f-giphy-pfft-js-types": "^3.1.3",
         "uuid": "^8.3.0"
     },
     "devDependencies": {
