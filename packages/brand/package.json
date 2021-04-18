@@ -12,7 +12,7 @@
         "preact": "next",
         "typescript": "^4.0.5"
     },
-    "name": "@f-giphy-pfft/js-brand",
+    "name": "f-giphy-pfft-js-brand",
     "version": "2.0.4",
     "main": "./dist/index.js",
     "description": "colors, fonts, and other shared css",
@@ -29,5 +29,6 @@
     "source": true,
     "dependencies": {
         "emotion": "10.0.27"
-    }
+    },
+    "gitHead": "1ca8bb70a3c4032080b7150d311520025a0c6e39"
 }

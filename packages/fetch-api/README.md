@@ -1,11 +1,11 @@
-# @f-giphy-pfft/js-fetch-api
+# f-giphy-pfft-js-fetch-api
 
 Javascript API to fetch gifs and stickers from the GIPHY API.
 
 Get started with your own api key: https://developers.giphy.com/docs/
 
 ```typescript
-import { GiphyFetch } from '@f-giphy-pfft/js-fetch-api'
+import { GiphyFetch } from 'f-giphy-pfft-js-fetch-api'
 
 const gf = new GiphyFetch('your api key')
 
@@ -15,7 +15,7 @@ const { data: gifs } = await gf.trending({ limit: 10 })
 
 ## Try it out:
 
-[![Edit @f-giphy-pfft/js-fetch-api](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/20kmp3zp9r?fontsize=14)
+[![Edit f-giphy-pfft-js-fetch-api](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/20kmp3zp9r?fontsize=14)
 
 # Fetch GIFs, Stickers, and Animated Text
 

@@ -1,7 +1,7 @@
 import { Carousel, renderCarousel } from '../src'
-import { IGif } from '@f-giphy-pfft/js-types'
+import { IGif } from 'f-giphy-pfft-js-types'
 import { h, render as preactRender, Component } from 'preact'
-import { GiphyFetch } from '@f-giphy-pfft/js-fetch-api'
+import { GiphyFetch } from 'f-giphy-pfft-js-fetch-api'
 
 const gf = new GiphyFetch('sXpGFDGZs0Dv1mmNFvYaGUvYwKX0PWIh')
 const fetchGifs = (offset: number) => gf.trending({ offset, limit: 4 })

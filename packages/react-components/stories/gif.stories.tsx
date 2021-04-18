@@ -1,5 +1,5 @@
-import { GiphyFetch } from '@f-giphy-pfft/js-fetch-api'
-import { IGif } from '@f-giphy-pfft/js-types'
+import { GiphyFetch } from 'f-giphy-pfft-js-fetch-api'
+import { IGif } from 'f-giphy-pfft-js-types'
 import { action } from '@storybook/addon-actions'
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs'
 import React, { ReactType, useEffect, useState } from 'react'

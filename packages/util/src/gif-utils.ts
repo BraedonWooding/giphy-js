@@ -1,8 +1,8 @@
 import { take, pick, without } from './collections'
 import bestfit from './bestfit'
-import { IGif, ImageAllTypes, IRendition, IImages } from '@f-giphy-pfft/js-types'
+import { IGif, ImageAllTypes, IRendition, IImages } from 'f-giphy-pfft-js-types'
 import { SUPPORTS_WEBP } from './webp-check'
-import IVideo from '@f-giphy-pfft/js-types/dist/video'
+import IVideo from 'f-giphy-pfft-js-types/dist/video'
 
 export const getSpecificRendition = (
     { images, is_sticker: isSticker }: IGif,

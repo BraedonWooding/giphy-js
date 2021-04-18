@@ -20,7 +20,7 @@
 
 -   Gianni Ferullo ([@giannif](https://github.com/giannif))
 
-## @f-giphy-pfft/js-components@4.1.3 (2021-01-29)
+## f-giphy-pfft-js-components@4.1.3 (2021-01-29)
 
 #### :rocket: Enhancement
 
@@ -31,7 +31,7 @@
 
 -   Gianni Ferullo ([@giannif](https://github.com/giannif))
 
-## @f-giphy-pfft/js-components@4.1.2 (2021-01-27)
+## f-giphy-pfft-js-components@4.1.2 (2021-01-27)
 
 #### :rocket: Enhancement
 
@@ -42,7 +42,7 @@
 
 -   Daniel Leite de Oliveira ([@dleitee](https://github.com/dleitee))
 
-## @f-giphy-pfft/js-components@4.1.0 (2021-01-05)
+## f-giphy-pfft-js-components@4.1.0 (2021-01-05)
 
 #### :rocket: Enhancement
 
@@ -53,7 +53,7 @@
 
 -   Gianni Ferullo ([@giannif](https://github.com/giannif))
 
-## @f-giphy-pfft/js-components@4.0.1 (2020-12-09)
+## f-giphy-pfft-js-components@4.0.1 (2020-12-09)
 
 #### :rocket: Enhancement
 
@@ -64,21 +64,21 @@
 
 -   Gianni Ferullo ([@giannif](https://github.com/giannif))
 
-## @f-giphy-pfft/js-components@3.4.0 (2020-08-06)
+## f-giphy-pfft-js-components@3.4.0 (2020-08-06)
 
 #### :rocket: Enhancement
 
 -   `components`, `react-components`
     -   [#119](https://github.com/Giphy/giphy-js/pull/119) feat(no-link): grid and carousel components accept the noLink prop ([@giannif](https://github.com/giannif))
 
-## @f-giphy-pfft/js-components@3.3.0 (2020-07-08)
+## f-giphy-pfft-js-components@3.3.0 (2020-07-08)
 
 #### :rocket: Enhancement
 
 -   `components`, `react-components`
     -   [#104](https://github.com/Giphy/giphy-js/pull/104) Redesign attribution component ([@giannif](https://github.com/giannif))
 
-## @f-giphy-pfft/js-components@3.1.0 (2020-06-17)
+## f-giphy-pfft-js-components@3.1.0 (2020-06-17)
 
 #### :rocket: Enhancement
 
@@ -90,7 +90,7 @@
 -   `components`, `react-components`
     -   [#95](https://github.com/Giphy/giphy-js/pull/95) fix Preact grid and no results showing between searches, remove default no results (give devs a chance to use the new feature if they've implemented their own version) ([@giannif](https://github.com/giannif))
 
-## @f-giphy-pfft/js-components@3.0.4 (2020-04-23)
+## f-giphy-pfft-js-components@3.0.4 (2020-04-23)
 
 #### :rocket: Enhancement
 

@@ -1,4 +1,4 @@
-import { IGif } from '@f-giphy-pfft/js-types'
+import { IGif } from 'f-giphy-pfft-js-types'
 
 export interface Result {
     meta: {

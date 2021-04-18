@@ -1,4 +1,4 @@
-import { mergeAttributes, PingbackAttributes } from '@f-giphy-pfft/js-analytics'
+import { mergeAttributes, PingbackAttributes } from 'f-giphy-pfft-js-analytics'
 import React, { createContext, FC, useContext } from 'react'
 
 type PingbackContextProps = { attributes: PingbackAttributes }

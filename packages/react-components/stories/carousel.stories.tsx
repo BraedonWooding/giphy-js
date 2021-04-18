@@ -1,4 +1,4 @@
-import { GiphyFetch } from '@f-giphy-pfft/js-fetch-api'
+import { GiphyFetch } from 'f-giphy-pfft-js-fetch-api'
 import isPercy from '@percy-io/in-percy'
 import { number, withKnobs } from '@storybook/addon-knobs'
 import { useState } from '@storybook/addons'

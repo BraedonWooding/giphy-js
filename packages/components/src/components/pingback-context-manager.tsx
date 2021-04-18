@@ -1,4 +1,4 @@
-import { mergeAttributes, PingbackAttributes } from '@f-giphy-pfft/js-analytics'
+import { mergeAttributes, PingbackAttributes } from 'f-giphy-pfft-js-analytics'
 import { createContext, FunctionComponent, h } from 'preact'
 import { useContext } from 'preact/hooks'
 

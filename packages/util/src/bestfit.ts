@@ -1,4 +1,4 @@
-import { IRendition } from '@f-giphy-pfft/js-types'
+import { IRendition } from 'f-giphy-pfft-js-types'
 import { Logger } from './log'
 
 const closestArea = (width: number, height: number, renditions: IRendition[]) => {
@@ -22,7 +22,7 @@ const closestArea = (width: number, height: number, renditions: IRendition[]) =>
 
 let SCALE_UP_MAX_PIXELS = 50
 export const setRenditionScaleUpMaxPixels = (pixels: number) => {
-    Logger.debug(`@f-giphy-pfft/js-util set rendition selection scale up max pixels to ${pixels}`)
+    Logger.debug(`f-giphy-pfft-js-util set rendition selection scale up max pixels to ${pixels}`)
     SCALE_UP_MAX_PIXELS = pixels
 }
 /**

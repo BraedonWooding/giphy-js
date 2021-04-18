@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { IUser } from '@f-giphy-pfft/js-types'
+import { IUser } from 'f-giphy-pfft-js-types'
 import React, { useRef } from 'react'
 
 const getSmallAvatar = (avatar: string) => {

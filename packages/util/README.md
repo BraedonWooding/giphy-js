@@ -1,4 +1,4 @@
-# @f-giphy-pfft/js-util
+# f-giphy-pfft-js-util
 
 More coming soon:
 

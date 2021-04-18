@@ -1,4 +1,4 @@
-import { giphyBlack } from '@f-giphy-pfft/js-brand'
+import { giphyBlack } from 'f-giphy-pfft-js-brand'
 import React from 'react'
 type Props = {
     className?: string

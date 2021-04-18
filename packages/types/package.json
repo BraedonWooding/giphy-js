@@ -5,7 +5,7 @@
         "build": "tsc -d --emitDeclarationOnly -declarationDir ./dist",
         "prepublish": "npm run clean && tsc -d --emitDeclarationOnly -declarationDir ./dist"
     },
-    "name": "@f-giphy-pfft/js-types",
+    "name": "f-giphy-pfft-js-types",
     "version": "3.1.2",
     "main": "dist/index.d.ts",
     "types": "dist/index.d.ts",
@@ -18,5 +18,6 @@
     "license": "MIT",
     "devDependencies": {
         "typescript": "^4.0.5"
-    }
+    },
+    "gitHead": "1ca8bb70a3c4032080b7150d311520025a0c6e39"
 }

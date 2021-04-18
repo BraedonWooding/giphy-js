@@ -1,4 +1,4 @@
-import { IUser } from '@f-giphy-pfft/js-types'
+import { IUser } from 'f-giphy-pfft-js-types'
 import { css, cx } from 'emotion'
 import { h } from 'preact'
 import { useRef } from 'preact/hooks'

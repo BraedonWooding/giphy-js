@@ -1,5 +1,5 @@
-import { IGif, IUser } from '@f-giphy-pfft/js-types'
-import { IImages, ImageAllTypes } from '@f-giphy-pfft/js-types/dist/gif'
+import { IGif, IUser } from 'f-giphy-pfft-js-types'
+import { IImages, ImageAllTypes } from 'f-giphy-pfft-js-types/dist/gif'
 import { forEach, mapValues, pick, take, without } from '../collections'
 import getPingbackId from '../get-pingback-id'
 import { getAltText, getBestRenditionUrl, getGifHeight, getGifWidth, getSpecificRendition } from '../gif-utils'

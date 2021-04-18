@@ -1,5 +1,5 @@
-import { giphyDarkestGrey } from '@f-giphy-pfft/js-brand'
-import { IChannel } from '@f-giphy-pfft/js-types'
+import { giphyDarkestGrey } from 'f-giphy-pfft-js-brand'
+import { IChannel } from 'f-giphy-pfft-js-types'
 import React, { useContext } from 'react'
 import Avatar_ from '../../attribution/avatar'
 import VerifiedBadge from '../../attribution/verified-badge'
