@@ -1,5 +1,5 @@
 {
-    "name": "giphy-js",
+    "name": "f-giphy-js",
     "scripts": {
         "lint": "eslint --ext .ts,.tsx ./packages --config ./.eslintrc --ignore-path ./.eslintignore",
         "test": "lerna exec -- npm test",
